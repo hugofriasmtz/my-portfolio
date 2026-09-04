@@ -2,10 +2,10 @@ import { b } from "framer-motion/client";
 
 export const personalInfo = {
   name: "Hugo Frías Martínez ",
-  location: "Querétaro, México",
+  location: "Ciudad de México, México",
   email: "hugofriasmtz@hotmail.com",
   github: "https://github.com/hugofriasmtz",
-  linkedin: "https://www.linkedin.com/in/hugofriasmtz/",
+  linkedin: "https://www.linkedin.com/in/hugofriasmtz/"
 };
 
 export const workExperience = [
@@ -13,17 +13,17 @@ export const workExperience = [
     company: "Coescaling",
     location: "Querétaro, México",
     position: "Programador Jr.",
-    period: "Jul 2025 - Actualidad",
+    period: "Julio de 2025 - Diciembre de 2025",
     achievements: [
       "Recientemente me uní como Programador Jr. en Coescaling, una empresa de consultoría especializada en bienes raíces.",
       "Colaboro en el desarrollo de soluciones tecnológicas para optimizar procesos inmobiliarios y mejorar la experiencia de nuestros clientes.",
     ],
   },
   {
-    company: "Holiday Inn Querétaro Centro Historico",
-    location: "Querétaro, Mexico",
+    company: "Holiday Inn Querétaro Centro Histórico",
+    location: "Querétaro, México",
     position: "Practicante de Sistemas",
-    period: "Ene 2025 - Abr 2025",
+    period: "Enero de 2025 - Abril de 2025",
     achievements: [
       "Desarrollé un sistema interno de tickets de soporte y mantenimiento para la cadena hotelera.",
       "Diseñé e implementé una solución que permite a las distintas áreas del hotel registrar y dar seguimiento a reportes técnicos.",
@@ -34,201 +34,84 @@ export const workExperience = [
     ],
   }
 ];
-
 export const education = [
   {
     institution: "Universidad Tecnológica de Tehuacán",
     location: "Tehuacán, Puebla, México",
-    degree: "Ingeniería en Desarrollo y Gestion de Software",
-    period: "Agosto 2022 - Abril 2025",
-   
+    degree: "Ingeniería en Desarrollo y Gestión de Software",
+    period: "Septiembre de 2023 - Abril de 2025",
   },
+  {
+    institution: "Universidad Tecnológica de Tehuacán",
+    location: "Tehuacán, Puebla, México",
+    degree: "TSU en TI Área Desarrollo de Software Multiplataforma",
+    period: "Septiembre de 2021 - Agosto de 2023",
+  }
 ];
 export const skills = {
-  programmingLanguages: [
-    "PHP",
-    "JavaScript",
-    "Python"
-  ],
-  backendDevelopment: [
-    "Composer",
-    "Laravel",
-    "Slim Framework",
-    "Node.js",
-  ],
-
   frontendDevelopment: [
-    "Nextjs",
     "Astro",
-    "Tailwind CSS",
+    "React",
+    "JavaScript",
     "HTML",
     "CSS",
+    "Tailwind",
   ],
-  database: ["MariaDB", "MySQL", "MongoDB"],
-  operatingSystems: [
+  backendDevelopment: [
+    "Python",
+    "FastAPI",
+    "PHP",
+    "Laravel",
+    "WordPress",
+  ],
+  database: ["MariaDB", "MySQL", "MongoDB", "Firebase", "SQLite"],
+  toolsAndEnvironment: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Markdown",
+    "Notion",
     "Windows",
     "Linux",
-    "WSL (Windows Subsystem for Linux)",
-    "macOS"
   ],
 };
 
 export const projects = [
   {
-    title: "ChatBot -AI ",
+    title: "Chatbot con IA",
     github: "https://github.com/hugofriasmtz/chatBotAI",
     description: [
       "Aplicación desarrollada en PHP que permite interactuar con modelos de inteligencia artificial para obtener respuestas especializadas, especialmente en temas relacionados con PHP.",
       "Ofrece una interfaz web moderna y también la posibilidad de usarlo desde la terminal, facilitando su integración en distintos flujos de trabajo.",
       "Conectividad flexible con servicios de IA como OpenAI u Ollama, además de un modo simulado para pruebas y desarrollo.",
-      "Diseño modular y configurable que lo hace ideal tanto para desarrolladores que buscan aprender sobre integración de IA en PHP.",
+      "Su diseño modular y configurable lo hace ideal para desarrolladores que buscan aprender sobre la integración de IA en PHP.",
       "Herramienta práctica para consultas técnicas con una arquitectura escalable y fácil de mantener.",
     ],
   },
   {
-    title: "Pixel",
-    github: "https://github.com/hugofriasmtz/pixel",
+    title: "Sistema de Riego",
+    github: "https://github.com/hugofriasmtz/Irrigation_System",
     description: [
-      "Plataforma web desarrollada en Laravel para la publicación y gestión de trabajos y oportunidades laborales.",
-      "Sistema de autenticación y perfiles de usuario que permite a empleadores y candidatos interactuar de manera eficiente.",
-      "Interfaz intuitiva para subir, editar y gestionar publicaciones de trabajo con categorías y filtros avanzados.",
-      "Implementación de sistema de búsqueda y filtrado para facilitar la búsqueda de oportunidades laborales.",
-      "Arquitectura MVC robusta con base de datos optimizada para el manejo de grandes volúmenes de publicaciones.",
+      "Sistema web desarrollado para digitalizar la gestión de un pozo de agua y agilizar los procesos de pago y distribución del recurso.",
+      "Permite que cada persona con derecho al agua solicite su parte indicando el día y la hora en que desea recibirla, mediante un calendario web.",
+      "Incluye un panel administrativo para registrar usuarios y terrenos, así como consultar el calendario y revisar las solicitudes realizadas.",
     ],
   },
-];
-
-export const awards = [
   {
-    name: "Curso de PHP: Cookies, Sesiones y Modularización",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
+    title: "Guía de estudio para librerías de Python",
+    github: "https://github.com/hugofriasmtz/python-intermedial",
+    description: [
+      "Guía para comenzar a aprender tres de las librerías más importantes de Python, con ejemplos prácticos y ejercicios para reforzar el aprendizaje.",
+      "Incluye recursos adicionales y enlaces útiles para continuar aprendiendo y profundizar en el tema.",
+    ],
   },
   {
-    name: "Curso de PHP: Entornos Virtuales y Funciones Avanzadas",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de Manejo de Datos en PHP",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de PHP con Composer",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de PHP: Integración con HTML",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de TailwindCSS",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Frontend Development"
-  },
-  {
-    name: "Curso de Fundamentos de PHP",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de Introducción a .NET con C#",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de Docker: Fundamentos",
-    issuer: "Platzi",
-    date: "Jun 2025",
-    category: "DevOps"
-  },
-  {
-    name: "Curso de Introducción a la Terminal y Línea de Comandos",
-    issuer: "Platzi",
-    date: "May 2025",
-    category: "Development Tools"
-  },
-  {
-    name: "Curso de Patrones de Diseño en JavaScript",
-    issuer: "Platzi",
-    date: "May 2025",
-    category: "Frontend Development"
-  },
-  {
-    name: "Curso de JavaScript: Manipulación del DOM",
-    issuer: "Platzi",
-    date: "May 2025",
-    category: "Frontend Development"
-  },
-  {
-    name: "Curso de Fundamentos de JavaScript",
-    issuer: "Platzi",
-    date: "May 2025",
-    category: "Frontend Development"
-  },
-  {
-    name: "Curso de Programación Orientada a Objetos en PHP",
-    issuer: "Platzi",
-    date: "Apr 2025",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso Práctico de PHP",
-    issuer: "Platzi",
-    date: "Feb 2024",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de Configuración de Entorno de Desarrollo en Linux",
-    issuer: "Platzi",
-    date: "Jan 2024",
-    category: "Development Tools"
-  },
-  {
-    name: "Curso de Configuración de Entorno de Desarrollo en macOS",
-    issuer: "Platzi",
-    date: "Jan 2024",
-    category: "Development Tools"
-  },
-  {
-    name: "Curso de Configuración de Entorno de Desarrollo en Windows",
-    issuer: "Platzi",
-    date: "Jan 2024",
-    category: "Development Tools"
-  },
-  {
-    name: "Curso de PHP: Arreglos, Funciones y Estructuras de Control",
-    issuer: "Platzi",
-    date: "Jul 2023",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso Básico de PHP: Instalación, Fundamentos y Operadores",
-    issuer: "Platzi",
-    date: "Jun 2023",
-    category: "Backend Development"
-  },
-  {
-    name: "Curso de Fundamentos de Bases de Datos",
-    issuer: "Platzi",
-    date: "May 2023",
-    category: "Database"
-  },
-  {
-    name: "Curso de Bootstrap 4",
-    issuer: "Platzi",
-    date: "May 2023",
-    category: "Frontend Development"
+    title: "Guía de estudio para HTML",
+    github: "https://github.com/hugofriasmtz/guia-html",
+    description: [
+      "Guía completa para aprender los fundamentos del lenguaje HTML, incluyendo estructura, semántica y buenas prácticas.",
+      "Ejemplos prácticos y ejercicios para reforzar el aprendizaje y aplicar los conceptos en proyectos reales.",
+      "Recursos adicionales y enlaces útiles para continuar aprendiendo y profundizar en el tema.",
+    ],
   },
 ];

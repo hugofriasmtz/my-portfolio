@@ -49,7 +49,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Desarrollador Junior 👨‍💻
             </motion.p>
 
             <motion.div
@@ -110,12 +110,11 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-lime-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src={`${import.meta.env.BASE_URL}/profile.png`}
-                alt="Profile"
+                src={`${import.meta.env.BASE_URL}/profile.webp`}
+                alt="Foto de perfil"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-emerald-500/50"
                 style={{ objectFit: "cover" }}
               />
-               
             </div>
           </motion.div>
         </motion.div>
@@ -124,11 +123,11 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-emerald-500/10 to-lime-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-emerald-500/20 dark:border-emerald-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-emerald-500 to-lime-500 rounded-full"></span>
-              🚀 Soy desarrollador junior egresado en Ingeniería en Desarrollo y Gestión de Software, 
-              con enfoque en backend y ganas de crecer como fullstack. Me especializo en crear soluciones 
-              que optimizan procesos y mejoran la eficiencia en sistemas digitales. 
-              Tengo experiencia en proyectos académicos aplicando arquitectura limpia y buenas prácticas. 
-              Estoy en formación continua y abierto a colaborar en proyectos desafiantes para aprender y aportar valor con tecnología.
+                🚀 ¡Hola! Soy Hugo, desarrollador con un gusto particular por todo lo que ocurre tras bambalinas en un sistema.
+                  Siempre me ha movido la curiosidad de entender cómo funcionan las cosas desde dentro y descomponer problemas complejos en pasos simples.
+                  Creo firmemente que un buen software no es solo el que compila, sino el que está bien pensado, bien documentado y hecho pensando en quienes lo usarán o mantendrán.
+                  Actualmente estoy abierto a nuevos retos, tanto en puestos de tiempo completo como en proyectos freelance.
+                  Fuera del código, me encontrarás jugando fútbol ⚽, saliendo con amigos, escuchando música en mis ratos libres 🎧 o simplemente compartiendo buenos momentos lejos de la pantalla.
             </p>
           </div>
         </MotionWrapper>
